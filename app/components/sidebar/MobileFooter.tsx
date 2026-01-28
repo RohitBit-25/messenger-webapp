@@ -19,8 +19,9 @@ const MobileFooter = () => {
         z-40
         flex
         items-center
-        bg-white
+        bg-volo-surface
         border-t-[1px]
+        border-volo-surface
         lg:hidden
         ">
             {routes.map((route) => (
