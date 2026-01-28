@@ -173,4 +173,4 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 Your Name - [@your_twitter](https://twitter.com/your_username) - email@example.com
 
-Project Link: [https://github.com/your-username/volo-messenger](https://github.com/your-username/volo-messenger)
+Project Link: [https://github.com/RohitBit-25/volo-messenger](https://github.com/RohitBit-25/volo-messenger)
