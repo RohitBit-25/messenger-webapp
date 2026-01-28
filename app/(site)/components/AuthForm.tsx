@@ -102,11 +102,11 @@ const AuthForm = () => {
         sm:max-w-md"
 
         >
+
             <div className="
-            bg-white
+            glass-card
             px-4
             py-8
-            shadow
             sm:rounded-lg
             sm:px-10">
                 <form className="space-y-6"
@@ -138,7 +138,7 @@ const AuthForm = () => {
                             <div className="w-full border-t border-gray-300" />
                         </div>
                         <div className="relative flex justify-center text-sm">
-                            <span className="bg-white px-2 text-gray-500">
+                            <span className="bg-transparent px-2 text-gray-200">
                                 Or continue with
 
                             </span>
@@ -160,7 +160,9 @@ const AuthForm = () => {
                 text-sm
                 mt-6
                 px-2
-                text-gray-500
+                mt-6
+                px-2
+                text-gray-300
                 ">
                     <div>
                         {variant === 'LOGIN' ? 'New to Messenger?' : 'Already have an account?'}

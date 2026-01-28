@@ -33,8 +33,9 @@ const DesktopSidebar: React.FC<DesktopSidebarProps> = ({
         lg:w-20
         xl:px-6
         lg:overflow-y-auto
-        lg:bg-white
+        lg:bg-volo-bg
         lg:border-r-[1px]
+        lg:border-volo-surface
         lg:pb-4
         lg:flex
         lg:flex-col
