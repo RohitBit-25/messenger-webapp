@@ -42,10 +42,12 @@ const Header: React.FC<HeaderProps> = ({
             />
             <div
                 className="
-        bg-white
+        bg-volo-surface/80
+        backdrop-blur-md
         w-full
         flex
         border-b-[1px]
+        border-volo-surface
         sm:px-4
         py-3
         px-4
@@ -53,12 +55,14 @@ const Header: React.FC<HeaderProps> = ({
         justify-between
         items-center
         shadow-sm
+        z-40
+        text-volo-text
         ">
                 <div className="flex gap-3 items-center">
                     <Link className=" lg:hidden
                 block
-                text-sky-500
-                hover:text-sky-600
+                text-volo-primary
+                hover:text-volo-primary/80
                 transition
                 cursor-pointer
                 " href="/conversations" >
@@ -75,16 +79,16 @@ const Header: React.FC<HeaderProps> = ({
                         </div>
                         <div className="text-sm
                   font-light
-                  text-neutral-500">
+                  text-volo-muted">
                             {statusText}
                         </div>
                     </div>
                 </div>
                 <HiEllipsisHorizontal size={32}
                     onClick={() => setDrawerOpen(true)}
-                    className="text-sky-500
+                    className="text-volo-primary
             cursor-pointer
-            hover:text-sky-600
+            hover:text-volo-primary/80
             transition"
                 />
             </div>

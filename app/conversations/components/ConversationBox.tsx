@@ -71,13 +71,13 @@ const ConversationBox: React.FC<ConversationBoxProps> = ({
         flex
         items-center
         space-x-3
-        hover:bg-neutral-100
+        hover:bg-volo-surface/50
         rounded-lg
         transition
         cursor-pointer
         p-3
         `,
-                selected ? 'bg-neutral-100' : 'bg-white')}>
+                selected ? 'bg-volo-surface border-l-4 border-volo-primary' : 'bg-transparent')}>
             {data.isGroup ? (
                 <AvatarGroup users={data.users} />
             ) : (
@@ -94,7 +94,7 @@ const ConversationBox: React.FC<ConversationBoxProps> = ({
                         <p className="
                         text-md
                         font-medium
-                        text-gray-900
+                        text-volo-text
                         ">
                             {data.name || otherUser.name}
                         </p>
@@ -102,7 +102,7 @@ const ConversationBox: React.FC<ConversationBoxProps> = ({
                             <p
                                 className="
                             text-xs
-                            text-gray-400
+                            text-volo-muted
                             font-light"
                             >
                                 {format(new Date(lastMessage.createdAt), 'p')}
@@ -113,7 +113,7 @@ const ConversationBox: React.FC<ConversationBoxProps> = ({
                         className={clsx(`
                     truncate
                     text-sm
-                    `, hasSeen ? 'text-gray-500' : 'text-black font-medium')}
+                    `, hasSeen ? 'text-volo-muted' : 'text-volo-text font-bold')}
                     >
                         {lastMessageText}
                     </p>

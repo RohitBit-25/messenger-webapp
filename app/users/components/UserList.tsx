@@ -22,7 +22,8 @@ const UserList: React.FC<UserListProps> = ({
         lg:block
         overflow-y-auto
         border-r
-        border-gray-200
+        border-volo-surface
+        bg-volo-bg
         block
         w-full
         left-0
@@ -31,10 +32,10 @@ const UserList: React.FC<UserListProps> = ({
                 <div className="flex-col">
                     <div className="text-2xl
                     font-bold
-                    text-neutral-800
+                    text-volo-text
                     py-4
                     ">
-                        Peoples
+                        People
 
                     </div>
 

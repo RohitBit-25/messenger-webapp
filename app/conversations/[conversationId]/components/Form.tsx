@@ -37,8 +37,9 @@ const Form = () => {
         <div className="
         py-4
         px-4
-        bg-white
+        bg-volo-surface
         border-t
+        border-volo-surface
         flex
         items-center
         gap-2
@@ -50,7 +51,7 @@ const Form = () => {
                 onUpload={handleUpload}
                 uploadPreset="fa5hpnr0"
             >
-                <HiPhoto size={30} className="text-sky-500" />
+                <HiPhoto size={30} className="text-volo-primary" />
             </CldUploadButton>
             <form
                 onSubmit={handleSubmit(onSubmit)}
@@ -67,9 +68,9 @@ const Form = () => {
                     className="
             rounded-full
             p-2
-            bg-sky-500
+            btn-volo
             cursor-pointer
-            hover:bg-sky-600
+            hover:opacity-75
             transition
             " > <HiPaperAirplane
                         size={18}

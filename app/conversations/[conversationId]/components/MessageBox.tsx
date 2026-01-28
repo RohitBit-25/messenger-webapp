@@ -41,7 +41,7 @@ const MessageBox: React.FC<MessageBoxProps> = ({
     );
     const message = clsx(
         "text-sm w-fit overflow-hidden ",
-        isOwn ? 'bg-sky-500 text-white' : 'bg-gray-100',
+        isOwn ? 'bg-gradient-to-r from-volo-primary to-volo-secondary text-white' : 'bg-volo-surface text-volo-text',
         data.image ? 'rounded-md p-0' : 'rounded-full py-2 px-3'
     )
 
@@ -53,11 +53,11 @@ const MessageBox: React.FC<MessageBoxProps> = ({
             </div>
             <div className={body}>
                 <div className="flex items-center gap-1">
-                    <div className="text-sm text-gray-500">
+                    <div className="text-sm text-volo-muted">
                         {data.sender.name}
 
                     </div>
-                    <div className="text-xs text-gray-400">
+                    <div className="text-xs text-volo-muted">
                         {format(new Date(data.createdAt), 'p')}
 
                     </div>
