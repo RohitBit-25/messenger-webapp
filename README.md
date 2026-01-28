@@ -1,6 +1,10 @@
 # Volo - Premium Messaging Experience
 
-![Volo Banner](public/images/logo.png)
+<div align="center">
+  <img src="public/images/logo.png" alt="Volo Logo" width="150" height="auto" />
+  <br />
+  <br />
+</div>
 
 > **Volo** is a next-generation real-time messaging application designed for speed and aesthetic excellence. Featuring a premium dark mode with neon accents and glassmorphism, it redefines how you connect.
 
